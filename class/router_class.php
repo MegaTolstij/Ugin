@@ -66,7 +66,7 @@ Class Router{
 			} else {
 				$val = "";
 			}
-			$result[] = array($key => $val);
+			$result[$key] = $val;
 		}
 		
 		return $result;
