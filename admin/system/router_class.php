@@ -27,11 +27,11 @@ Class Router{
 	
 	public function get_name_class($inp_arr)
 	{
-		if(isset($inp_arr[1]) && $inp_arr[1] != '')
+		if(isset($inp_arr[2]) && $inp_arr[2] != '')
 		{
-			if(file_exists('./class/'.$inp_arr[1].'_class.php'))
+			if(file_exists('./class/'.$inp_arr[2].'.php'))
 			{
-				return $inp_arr[1];
+				return $inp_arr[2];
 			} else {
 				return "page_404";
 			}
@@ -42,9 +42,9 @@ Class Router{
 	
 	public function get_name_function($inp_arr)
 	{
-		if(isset($inp_arr[2]) && $inp_arr[2] != '')
+		if(isset($inp_arr[3]) && $inp_arr[3] != '')
 		{
-			return $inp_arr[2];
+			return $inp_arr[3];
 		} else {
 			return "run";
 		}

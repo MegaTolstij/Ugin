@@ -13,7 +13,7 @@ require_once "../system/main_class.php";
 $main_class = new general();
 
 //Подключаем роутер
-require_once "../system/router_class.php";
+require_once "./system/router_class.php";
 
 $router = new Router();
 
