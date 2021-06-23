@@ -1,0 +1,74 @@
+html
+{
+	padding: 0px;
+	margin: 0px;
+	overflow-x: hidden;
+}
+
+.clear
+{
+	clear:both;
+}
+
+/*Логотип*/
+.logo img
+{
+	padding: 15px;
+	background: #fff;
+	max-width: 90%;
+}
+
+.line_for_logo
+{
+	position: absolute;
+	border-top: 4px solid #e77817;
+	border-bottom: 2px solid #e77817;
+	height: 10px;
+	top: 60px;
+	width: 100%;
+}
+/*Логотип конец*/
+
+/*Главное меню*/
+.main_menu
+{
+	position: absolute;
+	top: 28px;
+	right: 0px;
+}
+
+.main_menu > ul
+{
+	text-align:right;
+}
+
+.main_menu > ul > li, .main_menu_mobile > ul > li
+{
+	display:inline-block;
+	padding: 0px 10px;
+}
+
+.main_menu > ul > li > a, .main_menu_mobile > ul > li > a
+{
+	color: #e77817;
+	font-size: 17px;
+}
+/*Главное меню конец*/
+
+/*Хлебные крошки*/
+.bread_crumbs
+{
+	background-color: #eee;
+}
+
+.bread_crumbs > .container > ul
+{
+	margin: 0px;
+}
+
+.bread_crumbs > .container > ul > li
+{
+	margin: 5px 0px;
+	display: inline-block;
+}
+/*Хлебные крошки конец*/

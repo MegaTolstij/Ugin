@@ -1,1 +1,11 @@
-<h1>ENTER</h1>
+<?
+Class enter extends general
+{	
+
+	public function run($parameters)
+	{
+		echo "<pre>";
+		print_r($parameters);
+		echo "</pre>";
+	}
+}
