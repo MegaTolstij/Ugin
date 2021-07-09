@@ -44,7 +44,8 @@ Class general
 		
 		include_once "./model/$url.php";
 		$model = new $name_class();
-		$result = $model->$method();
+		$model->base = $this->base;
+		$result = $model->$method($data);
 		return $result;
 	}
 	
