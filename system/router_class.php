@@ -29,7 +29,7 @@ Class Router{
 	{
 		if(isset($inp_arr[1]) && $inp_arr[1] != '')
 		{
-			if(file_exists('./class/'.$inp_arr[1].'_class.php'))
+			if(file_exists('./controller/'.$inp_arr[1].'.php'))
 			{
 				return $inp_arr[1];
 			} else {
